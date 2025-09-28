@@ -4,6 +4,11 @@
 This project was inspired by an assignment from one of my courses at STU FEI University in the subject *Object-Oriented Programming (OOP)*.  
 I reworked the assignment into Python and added some extra logic to a few endpoints.
 
+Old Assigement: https://github.com/Interes-Group/zadanie-3-eshop-PyKej
+
+Old Swagger: https://app.swaggerhub.com/apis-docs/sk-stuba-fei-uim-oop/OOP_Zadanie_3/1.0.0#/
+
+
 ## Setup Instructions
 
 ### Install FastAPI and Uvicorn
