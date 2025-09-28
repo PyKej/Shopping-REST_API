@@ -1,17 +1,32 @@
-# weather_api
-Install FastAPI and Uvicorn:
+# Shopping REST API
+
+## Project Description
+This project was inspired by an assignment from one of my courses at STU FEI University in the subject *Object-Oriented Programming (OOP)*.  
+I reworked the assignment into Python and added some extra logic to a few endpoints.
+
+## Setup Instructions
+
+### Install FastAPI and Uvicorn
+```bash
 pip install fastapi uvicorn
+````
 
+### Start the Server
+
+```bash
 uvicorn main:app --reload
-main = filename (main.py)
+```
 
-app = FastAPI instance (app = FastAPI())
+Explanation of the command:
 
---reload = auto-restart when you change code
+* `main` → the filename (`main.py`)
+* `app` → the FastAPI instance (`app = FastAPI()`)
+* `--reload` → automatically restarts the server when you change the code
 
-🔹 5. Open in your browser
-API root: 👉 http://127.0.0.1:8000/
+## Explore the REST API
 
-Interactive docs (Swagger UI): 👉 http://127.0.0.1:8000/docs
+Open one of the following in your browser:
 
-Alternative docs (ReDoc): 👉 http://127.0.0.1:8000/redoc
+* API root: 👉 [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
+* Interactive docs (Swagger UI): 👉 [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
+* Alternative docs (ReDoc): 👉 [http://127.0.0.1:8000/redoc](http://127.0.0.1:8000/redoc)
